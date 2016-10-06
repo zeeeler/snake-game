@@ -1,3 +1,4 @@
+//SnakeGame.java
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
@@ -35,7 +36,7 @@ public class SnakeGame extends JFrame {
 				}
 			}
 		});
-		this.setTitle("Snake Game 0.1   By £º xtutu");
+		this.setTitle("Snake Game 0.1   By Â£Âº xtutu");
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
 		this.setVisible(true);
 		new Thread(new ThreadUpadte()).start();
